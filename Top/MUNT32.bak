@@ -1,0 +1,198 @@
+EESchema Schematic File Version 4
+LIBS:MUNT32-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Raspberry_Pi_2_3 J2
+U 1 1 5F8C8D07
+P 5950 3650
+F 0 "J2" H 5950 5131 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 5950 5040 50  0000 C CNN
+F 2 "VideoGames:Raspberry Pi 3A+" H 5950 3650 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5950 3650 50  0001 C CNN
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F8CBEF1
+P 8150 2050
+F 0 "J3" H 8230 2042 50  0000 L CNN
+F 1 "OLED_128x64" H 8230 1951 50  0000 L CNN
+F 2 "VideoGames:OLED_128x64" H 8150 2050 50  0001 C CNN
+F 3 "~" H 8150 2050 50  0001 C CNN
+	1    8150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F8CCD8E
+P 7900 1900
+F 0 "#PWR0101" H 7900 1650 50  0001 C CNN
+F 1 "GND" H 7905 1727 50  0000 C CNN
+F 2 "" H 7900 1900 50  0001 C CNN
+F 3 "" H 7900 1900 50  0001 C CNN
+	1    7900 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 1900 7900 1950
+Wire Wire Line
+	7900 1950 7950 1950
+$Comp
+L power:VCC #PWR0102
+U 1 1 5F8CD83E
+P 7700 1900
+F 0 "#PWR0102" H 7700 1750 50  0001 C CNN
+F 1 "VCC" H 7717 2073 50  0000 C CNN
+F 2 "" H 7700 1900 50  0001 C CNN
+F 3 "" H 7700 1900 50  0001 C CNN
+	1    7700 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 1900 7700 2050
+Wire Wire Line
+	7700 2050 7950 2050
+Text Label 7950 2150 2    50   ~ 0
+SCL
+Text Label 7950 2250 2    50   ~ 0
+SDA
+NoConn ~ 5150 2750
+NoConn ~ 5150 2850
+NoConn ~ 5750 2350
+NoConn ~ 5850 2350
+NoConn ~ 6050 2350
+NoConn ~ 6150 2350
+NoConn ~ 6750 2750
+NoConn ~ 6750 2850
+NoConn ~ 6750 3050
+NoConn ~ 6750 3150
+NoConn ~ 6750 3350
+NoConn ~ 6750 3450
+NoConn ~ 6750 3550
+NoConn ~ 6750 3750
+NoConn ~ 6750 3850
+NoConn ~ 6750 3950
+NoConn ~ 6750 4050
+NoConn ~ 6750 4150
+NoConn ~ 6750 4350
+NoConn ~ 6750 4450
+NoConn ~ 5150 3050
+NoConn ~ 5150 3150
+NoConn ~ 5150 3250
+NoConn ~ 5150 3450
+NoConn ~ 5150 3550
+NoConn ~ 5150 3650
+NoConn ~ 5150 3850
+NoConn ~ 5150 3950
+NoConn ~ 5150 4050
+NoConn ~ 5150 4150
+NoConn ~ 5150 4250
+NoConn ~ 5150 4350
+NoConn ~ 5550 4950
+NoConn ~ 5650 4950
+NoConn ~ 5750 4950
+NoConn ~ 5850 4950
+NoConn ~ 5950 4950
+NoConn ~ 6050 4950
+NoConn ~ 6150 4950
+NoConn ~ 6250 4950
+$Comp
+L Video_Games:JLCJLCJLCJLC U1
+U 1 1 5F96E48B
+P 8700 4150
+F 0 "U1" H 8725 4196 50  0000 L CNN
+F 1 "JLCJLCJLCJLC" H 8725 4105 50  0000 L CNN
+F 2 "VideoGames:JLCJLCJLCJLC" H 8700 4150 50  0001 C CNN
+F 3 "" H 8700 4150 50  0001 C CNN
+	1    8700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F9702E7
+P 7800 2950
+F 0 "H?" V 7754 3100 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7845 3100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7800 2950 50  0001 C CNN
+F 3 "~" H 7800 2950 50  0001 C CNN
+	1    7800 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F970BAC
+P 7800 3150
+F 0 "H?" V 7754 3300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7845 3300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7800 3150 50  0001 C CNN
+F 3 "~" H 7800 3150 50  0001 C CNN
+	1    7800 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F970DA0
+P 7800 3350
+F 0 "H?" V 7754 3500 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7845 3500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7800 3350 50  0001 C CNN
+F 3 "~" H 7800 3350 50  0001 C CNN
+	1    7800 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F971078
+P 7800 3550
+F 0 "H?" V 7754 3700 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7845 3700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7800 3550 50  0001 C CNN
+F 3 "~" H 7800 3550 50  0001 C CNN
+	1    7800 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F971892
+P 7600 3700
+F 0 "#PWR?" H 7600 3450 50  0001 C CNN
+F 1 "GND" H 7605 3527 50  0000 C CNN
+F 2 "" H 7600 3700 50  0001 C CNN
+F 3 "" H 7600 3700 50  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2950 7600 2950
+Wire Wire Line
+	7600 2950 7600 3150
+Wire Wire Line
+	7700 3150 7600 3150
+Connection ~ 7600 3150
+Wire Wire Line
+	7600 3150 7600 3350
+Wire Wire Line
+	7700 3350 7600 3350
+Connection ~ 7600 3350
+Wire Wire Line
+	7600 3350 7600 3550
+Wire Wire Line
+	7700 3550 7600 3550
+Connection ~ 7600 3550
+Wire Wire Line
+	7600 3550 7600 3700
+$EndSCHEMATC
